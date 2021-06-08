@@ -1,0 +1,643 @@
+<!doctype html>
+<html> 
+ <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta
+  name="description"      author="ArrowHeads"     
+  content="Welcome to We Blog : Make Your Life Easier. Here, you will find the info about almost everything and anything that you want to do or know about!">
+<meta property="og:url"                content="https://weblogtechnologic.github.io/how-to-clear-the-cached-data-of-a-website-on-desktop.html" />
+<meta property="og:type"               content="article" />
+<meta property="og:title"              content="How to clear the cached data of a website on desktop?" />
+<meta property="og:description"        content="Cached data is a small amount of data that is installed on your device the first time you visit a site or open an application.The data takes up storage in your device and seldom makes the app or website function unusually and inconveniently.
+To fix this, follow the steps listed in thsi article!" />
+<meta property="og:image"              content="https://weblogtechnologic.github.io/WeBlog.png" />
+<title>
+How to clear the cached data of a website?
+</title>
+      <link rel="shortcut icon" href="WeBlog2.png" type="image/png">
+<link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@1,300&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+<title>
+  WeBlog : Your Tech News HQ
+  </title>
+  <style>
+  @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@1,300&display=swap');
+  </style>
+  <style>
+  @import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+  </style>
+   <style>
+  
+  .responsive {
+  width: 100%;
+  height: auto;
+}
+  .navbar {
+    overflow: hidden;
+    background-color: #000000;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    margin: 0 0 0 0;
+  }
+  
+  .navbar a {
+    float: left;
+    display: block;
+    color: #FFFFFF;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 18px;
+  }
+  
+  .navbar a:hover {
+    background: #8FACE3;
+    color: black;
+    border-radius: 25px;
+  }
+  
+  .navbar a.active {
+    background-color: #8FACE3;
+    color: white;
+  }
+  
+   .buttonsss {
+        position: relative;
+        background-color: #8FACE3;
+        font-size: 15px;
+        color: #FFFFFF;
+        padding: 50px 20px;
+        width: 115px;
+        height: 120px;
+        text-decoration: none;
+        overflow: hidden;
+        cursor: pointer;
+        border: 1px solid #8FACE3;
+      border-radius: 25px;
+      margin: 5px 8px;	  
+      }    
+  
+    .buttonss {
+        position: relative;
+        background-color:  #8FACE3;
+        font-size: 15px;
+        color: #FFFFFF;
+        padding: 50px 20px;
+        width: 115px;
+        height: 120px;
+        text-decoration: none;
+        overflow: hidden;
+        cursor: pointer;
+        border: 1px solid #8FACE3;
+      border-radius: 25px;
+      margin: 5px 8px;	  
+      }    
+  
+      .button {
+        position: relative;
+        background-color: #8FACE3;
+        font-size: 15px;
+        color: #FFFFFF;
+        padding: 50px 20px;
+        width: 115px;
+        height: 120px;
+        text-decoration: none;
+        overflow: hidden;
+        cursor: pointer;
+      border: 1px solid #8FACE3; 
+      border-radius: 25px;
+        margin: 5px 8px;
+      }
+      .buttons {
+        position: relative;
+        background-color: #8FACE3;
+        font-size: 15px;
+        color: #FFFFFF;
+        padding: 50px 20px;
+        width: 115px;
+        height: 120px;
+        text-decoration: none;
+        overflow: hidden;
+        cursor: pointer;
+        border: 1px solid #8FACE3; 
+      border-radius: 25px;
+      margin: 5px 8px;
+      }    
+  
+  
+  .click {
+    background-color: #171190; 
+    border: none;
+    color: white;
+    padding: 15px 30px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    border-radius: 50px;
+  }
+  .click:hover {
+  color: #000000;
+  background-color: #ffffff;
+  }
+  body {
+  background-color: #FFFFFF;
+  font-family: 'Montserrat', sans-serif;
+  margin: 0;
+  }
+  /* The sidebar menu */
+  .sidebar {
+    height: 100%; /* 100% Full-height */
+    width: 0; /* 0 width - change this with JavaScript */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Stay on top */
+    top: 0;
+    left: 0;
+    background-color: #111; /* Black*/
+    overflow-x: hidden; /* Disable horizontal scroll */
+    padding-top: 60px; /* Place content 60px from the top */
+    transition: 0.5s; /* 0.5 second transition effect to slide in the sidebar */
+  }
+  
+  /* The sidebar links */
+  .sidebar a {
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 25px;
+    color: silver;
+    display: block;
+    transition: 0.5s;
+    border-radius: 25px;
+  }
+  
+  .sidebar a:hover {
+    background-color: #8FACE3;
+     border-radius: 25px;
+     color: #5a5a5a;
+  }
+  
+  /* Position and style the close button (top right corner) */
+  .sidebar .closebtn {
+    font-size: 40px;
+  }
+  
+  /* The button used to open the sidebar */
+  .openbtn {
+    cursor: pointer;
+     border-radius: 25px;
+    background-color: black;
+  }
+  .categories {
+  background-color: #000000;
+  }
+  .categories a {
+    display: block;
+    color: #FFFFFF;
+    text-align: center;
+    padding: 20px 20px;
+    text-decoration: none;
+    background-color: #8FACE3;
+    border: 1px solid #FFFFFF;
+  }
+  .categories a:hover {
+  color: #000000;
+  }
+  .openbtn:hover {
+    background-color: #8FACE3;
+     border-radius: 25px;
+  }
+  
+  /* Style page content - use this if you want to push the page content to the right when you open the side navigation */
+  #main {
+    transition: margin-left .5s; /* If you want a transition effect */
+    padding: 15px;
+  }
+  
+  /* On smaller screens, where height is less than 450px, change the style of the sidenav (less padding and a smaller font size) */
+  @media screen and (max-height: 450px) {
+    .sidebar {padding-top: 15px;}
+    .sidebar a {font-size: 18px;}
+  }
+  ul {
+  background-color: #000000;
+   list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    top: 0;
+    width: 100%;
+   position: fixed;
+  }
+  
+  .list {
+    float: left;
+  }
+  
+  li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    background-color: black;
+  }
+  
+  li a:hover {
+    background-color: #ffffff;
+    color: #8FACE3;
+     border-radius: 25px;
+  }
+  ol li {
+  display: inline; 
+  float: left; 
+  }
+  
+  ol li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    background-color: black;
+  }
+  
+  
+  .activity {
+  background-color: #5a5a5a;
+   border-radius: 25px;
+  }
+  
+  .active {
+    background-color: #8FACE3;
+    border-radius: 25px;
+  }
+  
+  table tr td {
+  display: inline; 
+  float: left;
+  margin: 0 10px; 
+  }
+  
+  td a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    background-color: black;
+  }
+  td a:hover {
+  background-color: #FFFFFF;
+   border-radius: 25px;
+   color: #000000;
+  }
+  
+  .sub {
+  background-color: #8FACE3;
+  position: bottom;
+  }
+  #myInput {
+  border-radius: 50px;
+  }
+  #myBtn {
+    display: none; /* Hidden by default */
+    position: fixed; /* Fixed/sticky position */
+    bottom: 20px; /* Place the button at the bottom of the page */
+    right: 10px; /* Place the button 30px from the right */
+    z-index: 99; /* Make sure it does not overlap */
+    border: none; /* Remove borders */
+    outline: none; /* Remove outline */
+    background-color: #000000; /* Set a background color */
+    color: white; /* Text color */
+    cursor: pointer; /* Add a mouse pointer on hover */
+    padding: 15px; /* Some padding */
+    border-radius: 50px; /* Rounded corners */
+    font-size: 18px; /* Increase font size */
+  }
+  
+  #myBtn:hover {
+    background-color: #8FACE3; /* Add a dark-grey background on hover */
+  }
+  .logo {
+  margin: 15px 10px 0 0;
+  }
+  div a {
+  margin: 0 20px 0 0;
+  }
+  .bgimg {
+  background-image: url('BG.png');
+  height: 400px;
+  width: 100%;
+  margin: 0 0 0 0;
+  }
+  .TStep {
+    font-size: 20px;
+  }
+  .CStep {
+    font-size: 40px;
+  }
+
+  </style>
+  <script>
+    function openNav() {
+    document.getElementById("mySidebar").style.width = "250px";
+    document.getElementById("main").style.marginLeft = "250px";
+  }
+  
+  /* Set the width of the sidebar to 0 and the left margin of the page content to 0 */
+  function closeNav() {
+    document.getElementById("mySidebar").style.width = "0";
+    document.getElementById("main").style.marginLeft = "0";
+  }
+  </script>
+  <script>
+  function myFunction() {
+    // Declare variables
+    var input, filter, ol, li, a, i, txtValue;
+    input = document.getElementById('myInput');
+    filter = input.value.toUpperCase();
+    ol = document.getElementById("myOL");
+    li = ol.getElementsByTagName('li');
+  
+    // Loop through all list items, and hide those who don't match the search query
+    for (i = 0; i < li.length; i++) {
+      a = li[i].getElementsByTagName("a")[0];
+      txtValue = a.textContent || a.innerText;
+      if (txtValue.toUpperCase().indexOf(filter) > -1) {
+        li[i].style.display = "";
+      } else {
+        li[i].style.display = "none";
+      }
+    }
+  }
+  </script>
+  </head>
+<body>
+<script type="text/javascript" src="https://platform-api.sharethis.com/js/sharethis.js#property=60ad33719cfe6d001157ad7d&product=sticky-share-buttons" async="async"></script>
+<div id="fb-root"></div>
+<script async defer crossorigin="anonymous" src="https://connect.facebook.net/en_GB/sdk.js#xfbml=1&version=v10.0" nonce="OokQMLla"></script>
+<div id="fb-root"></div>
+<script async defer crossorigin="anonymous" src="https://connect.facebook.net/en_GB/sdk.js#xfbml=1&version=v10.0" nonce="NldviImJ"></script>
+<div id="fb-root"></div>
+<script async defer crossorigin="anonymous" src="https://connect.facebook.net/en_GB/sdk.js#xfbml=1&version=v10.0" nonce="1lew3lGe"></script>
+<div id="fb-root"></div>
+<script async defer crossorigin="anonymous" src="https://connect.facebook.net/en_GB/sdk.js#xfbml=1&version=v10.0" nonce="IEv32D8t"></script>
+<div id="fb-root"></div>
+<script async defer crossorigin="anonymous" src="https://connect.facebook.net/en_GB/sdk.js#xfbml=1&version=v10.0" nonce="0rJ8ORzS"></script>
+<center>
+<div class="bgimg">
+ArrowHeads - 2021
+<center>
+<p style="font-size:50px; color:#8FACE3;">
+<br>
+<b>
+WeBlog : Your Tech News HQ
+</b>
+</p>
+</center>
+<br>
+<br>
+ <br>
+  <br>
+  </center>
+</div>
+  <button onclick="topFunction()" id="myBtn" title="Go Back to Top"><img src="outline_expand_less_white_24dp.png"></button> 
+  <script>
+  //Get the button:
+  mybutton = document.getElementById("myBtn");
+  
+  // When the user scrolls down 20px from the top of the document, show the button
+  window.onscroll = function() {scrollFunction()};
+  
+  function scrollFunction() {
+    if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+      mybutton.style.display = "block";
+    } else {
+      mybutton.style.display = "none";
+    }
+  }
+  
+  // When the user clicks on the button, scroll to the top of the document
+  function topFunction() {
+    document.body.scrollTop = 0; // For Safari
+    document.documentElement.scrollTop = 0; // For Chrome, Firefox, IE and Opera
+  }
+  </script>
+  <p style="font-family: 'Roboto', sans-serif; font-size:40px; text-align: center; color: #8FACE3;">
+  How to clear the cached data of a website?
+  </p>
+  <br>
+  <br>
+  <br>
+  <b>
+ Conditions: For Chromium users only
+ <br>
+ <br>
+ Article Average Read Time : Approximately 3 minutes.
+  </b>
+<br>
+<br>
+Greetings!
+<br>
+<br>
+<i><element class="CStep">What will we do in this article?</element></i>
+</h2>
+<br>
+<br>
+By the end of this short article, you will know what is cached data, how does it affect your apps and websites, and how to clear the cached data of a website on desktop, <mark>this is for Google Chrome and Chromium-based browser users only, like, Microsoft Edge, Opera, Opera GX, Brave, Avast Secure Browser</mark>, and many others in just 4 simple steps.
+<br>
+<br>
+<i><element class="CStep">What is Cached-Data?</element></i>
+<br>
+<br>
+First things first, what is <i>cached data</i>?
+<br>
+<br>
+You have heard this term before but do you know what it is?
+<br>
+<br>
+<mark>
+<i>Cached data</i> is a small amount of data that is installed on your device the first time you visit a site or open an application. Data such as files, scripts, images, and other multimedia are stored on your device after opening an app or visiting a website for the first time.
+</mark>
+<br>
+<br>
+The data takes up storage in your device and seldom makes the app or website function unusually and inconveniently.
+<br>
+<br>
+To fix this, follow these steps:
+ <br>
+<br>
+<hr>
+<element class="CStep">1</element><element class="TStep">/4:</element>  <i><element class="CStep">Open your browser</element></i>
+<br>
+<br>
+<hr>
+<br>
+<br>
+First, open your browser.
+<br>
+<br>
+<img src="ChromeNewTab.png" style="border-radius:25px;" alt="Chrome New Tab" class="responsive" />
+<br>
+<br>
+It may look like this.
+<br>
+<br>
+<hr>
+<element class="CStep">2</element><element class="TStep">/4:</element>  <i><element class="CStep">Open the website you need to clear the cached data of</element></i>
+<br>
+<br>
+<hr>
+<br>
+<br>
+Then, open the website you want to clear the cached data of.
+For instance, I have opened <i>YouTube.com</i>
+<br>
+<br>
+<img src="YouTube.png" style="border-radius:25px;" alt="YouTube Home Page" class="responsive" />
+<br>
+<br>
+<hr>
+<element class="CStep">3</element><element class="TStep">/4:</element>  <i><element class="CStep">Press FN + F12</element></i>
+<br>
+<br>
+<hr>
+<br>
+<br>
+Now, press the <b>Function Key</b>, marked as <i> Fn </i> on your keyboard, with the <b>Function Key 12</b>, marked as <i> F12 </i>
+<br>
+<br>
+<center>
+<img src="Keyboard2.png" style="border-radius:25px;" alt="Keyboard" width="400" height="200" />
+</center>
+<br>
+<br>
+If you don't have a function key <i> Fn </i> on your keyboard, simply press <i> F12 </i>
+<br>
+<br>
+The <mark><i>Fn+F12</i></mark> key combination would open a menu that would look like this:
+<br>
+<br>
+<img src="iMenuYT.png" style="border-radius:25px;" alt="The website inspect menu for YouTube" class="responsive" />
+<br>
+<br>
+<hr>
+<element class="CStep">4</element><element class="TStep">/4:</element>  <i><element class="CStep">Right click on the &#8221;Refresh&#8221; button and select the third option</element></i>
+<br>
+<br>
+<hr>
+<br>
+<br>
+Go to the <i>Chrome tab manager</i>, it would look like this:
+<br>
+<br>
+<img src="Tab-manager.png" style="border-radius:25px;" alt="Tab-Manager-YT" class="responsive" />
+<br>
+<br>
+Right-click on the refresh button
+<br>
+<br>
+Select <i>&#8221;Empty Cache and Hard Reload&#8221;.</i>
+<br>
+<br>
+<img src="EC&HR.png" style="border-radius:25px;" alt="Empty Cacched Data And Hard Reload" class="responsive" />
+<br>
+<br>
+It would take a few seconds for the website to reload <i>(depending on your internet/wi-fi's speed).</i> 
+<br>
+<br>
+And now, the cached data is cleared and the website would work smoothly!
+<br>
+<br>
+Thank you for reading!
+<br>
+<br>
+<hr>
+<br>
+<br>
+<h3>
+Written by:
+<br>
+ Pixar <img src="outline_verified_black_24dp_small.png">
+<br>
+</h3>
+<p class="aInfo">
+Verified Account
+<br>
+<br>
+Founder, content-writer, and programmer of We Blog&#39;s team, ArrowHead. 
+</p>
+<br>
+<hr>
+<br>
+<br>
+Like this article, share it, comment on it, or save it for later!
+<br>
+<br>
+<a href="https://twitter.com/share?ref_src=twsrc%5Etfw" class="twitter-share-button" data-show-count="false">Tweet</a><script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+<br>
+<br>
+<div class="fb-share-button" data-href="https://weblog-howto.github.io/how-to-clear-the-cached-data-of-a-website-on-desktop.html" data-layout="button" data-size="small"><a target="_blank" href="https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fweblog-howto.github.io%2Fhow-to-clear-the-cached-data-of-a-website-on-desktop.html&amp;src=sdkpreparse" class="fb-xfbml-parse-ignore">Share</a></div>
+<br>
+<br>
+<div class="fb-like" data-href="https://weblog-howto.github.io/how-to-clear-the-cached-data-of-a-website-on-desktop.html" data-width="" data-layout="standard" data-action="like" data-size="small" data-share="false"></div>
+<br>
+<br>
+<div class="fb-save" data-uri="https://www.instagram.com/facebook/" data-size="large"></div>
+<br>
+<br>
+<div class="fb-comments" data-href="https://weblog-howto.github.io/how-to-clear-the-cached-data-of-a-website-on-desktop.html" data-width="400" data-numposts="50"></div>
+<br>
+<br>
+<center>
+<div class="sub">
+<p style="font-size:35px; color:#FFFFFF;">
+&#9993; Become our weekly newsletter subscriber! &#9993;
+</p>
+<div id="revue-embed">
+  <form action="https://www.getrevue.co/profile/weblog/add_subscriber" method="post" id="revue-form" name="revue-form"  target="_blank">
+  <div class="revue-form-group">
+    <label for="member_email" style="color: #8FACE3;"></label>
+    <input class="revue-form-field" placeholder="&#9993; Your E-Mail Address..." type="email" name="member[email]" id="member_email" style="height:50px; width:225px; font-size:15px; font-family: 'Montserrat', sans-serif; border-radius: 50px;">
+  </div>
+  <br>
+  <div class="revue-form-actions">
+    <input class="click" type="submit" value="Subscribe" name="member[subscribe]" id="member_submit">
+  </div>
+  </form>
+</div>
+</div>
+</div>
+</center>
+<p style="font-size:5px; text-align:center;">
+  WeBlogTechnologic.github.io
+</p>
+<br>
+<br>
+<br>
+<div class="navbar">
+<i>
+    <a href="home.html">
+ <img src="outline_home_white_24dp.png" height="20">
+  </a>
+</i>
+  <i>
+  <a href="https://weblogtechnologic.github.io/home.html#myInput" class="active">
+  <img src="outline_article_white_24dp.png" height="20">
+  </a>
+</i>
+ <i>
+ <a href="https://weblogtechnologic.github.io/home.html#searchit">
+ <img src="outline_search_white_24dp.png" height="20">
+ </a>
+ <a href="#aboutus">
+ <img src="outline_people_white_24dp.png" height="20">
+ </a>
+  <a href="#contact"><img src="outline_contact_mail_white_24dp_small.png"></a>
+</div>
+	</body>
+	</html>

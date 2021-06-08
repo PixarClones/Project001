@@ -1,0 +1,640 @@
+<!doctype html>
+<html>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta
+  name="description"      author="ArrowHeads"     
+  content="Welcome to We Blog! This website would feature daily articles about the advancements in the field of tech. Subscribe to our newsletter to never miss a thing!">
+  <meta property="og:url"                content="https://weblogtechnologic.github.io/home.html" />
+  <meta property="og:type"               content="article" />
+  <meta property="og:title"              content="WeBlog: Your Tech News HQ" />
+  <meta property="og:description"        content="WeBlog, your new home to all the news and things you need to know about technology!" />
+  <meta property="og:image"              content="https://weblogtechnologic.github.io/WeBlog.png" />
+  <head>
+<title>
+WeBlog : Your Tech News HQ
+</title>
+      <link rel="shortcut icon" href="WeBlog2.png" type="image/png">
+<link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@1,300&display=swap" rel="stylesheet">
+<style>
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@1,300&display=swap');
+</style>
+<style>
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+</style>
+ <style>
+
+.navbar {
+  overflow: hidden;
+  background-color: #000000;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  margin: 0 0 0 0;
+}
+
+.navbar a {
+  float: left;
+  display: block;
+  color: #FFFFFF;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 18px;
+}
+
+.navbar a:hover {
+  background: #8FACE3;
+  color: black;
+  border-radius: 25px;
+}
+
+.navbar a.active {
+  background-color: #8FACE3;
+  color: white;
+}
+
+ .buttonsss {
+      position: relative;
+      background-color: #FFFFFF;
+      font-size: 15px;
+      color: #8FACE3;
+      padding: 50px 20px;
+      width: 115px;
+      height: 120px;
+      text-decoration: none;
+      overflow: hidden;
+      cursor: pointer;
+      border: 1px solid #8FACE3;
+	  border-radius: 25px;
+	  margin: 5px 8px;	  
+	  }    
+
+  .buttonss {
+      position: relative;
+      background-color:  #FFFFFF;
+      font-size: 15px;
+      color: #8face3;
+      padding: 50px 20px;
+      width: 115px;
+      height: 120px;
+      text-decoration: none;
+      overflow: hidden;
+      cursor: pointer;
+      border: 1px solid #8FACE3;
+	  border-radius: 25px;
+	  margin: 5px 8px;	  
+	  }    
+
+    .button {
+      position: relative;
+      background-color: #FFFFFF;
+      font-size: 15px;
+      color: #8FACE3;
+      padding: 50px 20px;
+      width: 115px;
+      height: 120px;
+      text-decoration: none;
+      overflow: hidden;
+      cursor: pointer;
+	  border: 1px solid #8FACE3; 
+	  border-radius: 25px;
+	    margin: 5px 8px;
+	  }
+    .buttons {
+      position: relative;
+      background-color: #FFFFFF;
+      font-size: 15px;
+      color: #8FACE3;
+      padding: 50px 20px;
+      width: 115px;
+      height: 120px;
+      text-decoration: none;
+      overflow: hidden;
+      cursor: pointer;
+      border: 1px solid #8FACE3; 
+	  border-radius: 25px;
+	  margin: 5px 8px;
+	  }    
+
+
+.click {
+  background-color: #171190; 
+  border: none;
+  color: white;
+  padding: 15px 30px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  border-radius: 50px;
+}
+.click:hover {
+color: #000000;
+background-color: #ffffff;
+}
+body {
+background-color: #FFFFFF;
+font-family: 'Montserrat', sans-serif;
+margin: 0;
+}
+/* The sidebar menu */
+.sidebar {
+  height: 100%; /* 100% Full-height */
+  width: 0; /* 0 width - change this with JavaScript */
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Stay on top */
+  top: 0;
+  left: 0;
+  background-color: #111; /* Black*/
+  overflow-x: hidden; /* Disable horizontal scroll */
+  padding-top: 60px; /* Place content 60px from the top */
+  transition: 0.5s; /* 0.5 second transition effect to slide in the sidebar */
+}
+
+/* The sidebar links */
+.sidebar a {
+  padding: 8px 8px 8px 32px;
+  text-decoration: none;
+  font-size: 25px;
+  color: silver;
+  display: block;
+  transition: 0.5s;
+  border-radius: 25px;
+}
+
+.sidebar a:hover {
+  background-color: #8FACE3;
+   border-radius: 25px;
+   color: #5a5a5a;
+}
+
+/* Position and style the close button (top right corner) */
+.sidebar .closebtn {
+  font-size: 40px;
+}
+
+/* The button used to open the sidebar */
+.openbtn {
+  cursor: pointer;
+   border-radius: 25px;
+  background-color: black;
+}
+.categories {
+background-color: #000000;
+}
+.categories a {
+  display: block;
+  color: #FFFFFF;
+  text-align: center;
+  padding: 20px 20px;
+  text-decoration: none;
+  background-color: #8FACE3;
+  border: 1px solid #FFFFFF;
+}
+.categories a:hover {
+color: #000000;
+}
+.openbtn:hover {
+  background-color: #8FACE3;
+   border-radius: 25px;
+}
+
+/* Style page content - use this if you want to push the page content to the right when you open the side navigation */
+#main {
+  transition: margin-left .5s; /* If you want a transition effect */
+  padding: 15px;
+}
+
+/* On smaller screens, where height is less than 450px, change the style of the sidenav (less padding and a smaller font size) */
+@media screen and (max-height: 450px) {
+  .sidebar {padding-top: 15px;}
+  .sidebar a {font-size: 18px;}
+}
+ul {
+background-color: #000000;
+ list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  top: 0;
+  width: 100%;
+ position: fixed;
+}
+
+.list {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  background-color: black;
+}
+
+li a:hover {
+  background-color: #8FACE3;
+  color: #FFFFFF;
+   border-radius: 25px;
+}
+ol li {
+display: inline; 
+float: left; 
+}
+
+ol li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  background-color: black;
+}
+
+
+.activity {
+background-color: #5a5a5a;
+ border-radius: 25px;
+}
+
+.active {
+  background-color: #8FACE3;
+  border-radius: 25px;
+}
+
+table tr td {
+display: inline; 
+float: left;
+margin: 0 10px; 
+}
+
+td a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  background-color: black;
+}
+td a:hover {
+background-color: #FFFFFF;
+ border-radius: 25px;
+ color: #000000;
+}
+
+.sub {
+background-color: #8FACE3;
+position: bottom;
+}
+#myInput {
+border-radius: 50px;
+}
+#myBtn {
+  display: none; /* Hidden by default */
+  position: fixed; /* Fixed/sticky position */
+  bottom: 20px; /* Place the button at the bottom of the page */
+  right: 10px; /* Place the button 30px from the right */
+  z-index: 99; /* Make sure it does not overlap */
+  border: none; /* Remove borders */
+  outline: none; /* Remove outline */
+  background-color: #000000; /* Set a background color */
+  color: white; /* Text color */
+  cursor: pointer; /* Add a mouse pointer on hover */
+  padding: 15px; /* Some padding */
+  border-radius: 50px; /* Rounded corners */
+  font-size: 18px; /* Increase font size */
+}
+
+#myBtn:hover {
+  background-color: #8FACE3; /* Add a dark-grey background on hover */
+}
+.logo {
+margin: 15px 10px 0 0;
+}
+div a {
+margin: 0 20px 0 0;
+}
+.bgimg {
+background-image: url('BG.png');
+height: 400px;
+width: 100%;
+margin: 0 0 0 0;
+}
+</style>
+<script>
+  function openNav() {
+  document.getElementById("mySidebar").style.width = "250px";
+  document.getElementById("main").style.marginLeft = "250px";
+}
+
+/* Set the width of the sidebar to 0 and the left margin of the page content to 0 */
+function closeNav() {
+  document.getElementById("mySidebar").style.width = "0";
+  document.getElementById("main").style.marginLeft = "0";
+}
+</script>
+<script>
+function myFunction() {
+  // Declare variables
+  var input, filter, ol, li, a, i, txtValue;
+  input = document.getElementById('myInput');
+  filter = input.value.toUpperCase();
+  ol = document.getElementById("myOL");
+  li = ol.getElementsByTagName('li');
+
+  // Loop through all list items, and hide those who don't match the search query
+  for (i = 0; i < li.length; i++) {
+    a = li[i].getElementsByTagName("a")[0];
+    txtValue = a.textContent || a.innerText;
+    if (txtValue.toUpperCase().indexOf(filter) > -1) {
+      li[i].style.display = "";
+    } else {
+      li[i].style.display = "none";
+    }
+  }
+}
+</script>
+</head>
+<body>
+<script type="text/javascript" src="https://platform-api.sharethis.com/js/sharethis.js#property=60ad33719cfe6d001157ad7d&product=sticky-share-buttons" async="async"></script>
+<center>
+<div class="bgimg">
+Made by ArrowHead - 2021
+<center>
+<p style="font-size:50px; color:#8FACE3;">
+<br>
+<b>
+WeBlog : Your Tech News HQ 
+</b>
+</p>
+</center>
+<br>
+<br>
+ <br>
+  <br>
+  </center>
+  </div>
+  <button onclick="topFunction()" id="myBtn" title="Go Back to Top"><img src="outline_expand_less_white_24dp.png"></button> 
+  <script>
+  //Get the button:
+  mybutton = document.getElementById("myBtn");
+  
+  // When the user scrolls down 20px from the top of the document, show the button
+  window.onscroll = function() {scrollFunction()};
+  
+  function scrollFunction() {
+    if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+      mybutton.style.display = "block";
+    } else {
+      mybutton.style.display = "none";
+    }
+  }
+  
+  // When the user clicks on the button, scroll to the top of the document
+  function topFunction() {
+    document.body.scrollTop = 0; // For Safari
+    document.documentElement.scrollTop = 0; // For Chrome, Firefox, IE and Opera
+  }
+  </script>
+<br>
+<br>
+<br>
+<br>
+<br>
+<center>
+<p style="font-size:40px; color:#8FACE3;">
+Popular Articles This Week :
+</p>
+</center>
+<br>
+<center>
+<i>
+<table>
+<tr>
+<td>
+<a href="#" class="buttonss"> <img src="WeBlog.png" width="50" height="50"> <br> How to write a blog and publish it? @Tech</a>
+</td>
+<td>
+<a href="#" class="buttonsss"> <img src="WeBlog.png" width="50" height="50"> <br> How to be a better human? @Life</a>
+</td>
+ </tr>
+ </table>
+ </i>
+</center>
+ <br>
+ <br>
+ <hr>
+ <br>
+ <br>
+ <center>
+  <p style="font-size:40px; color:#8FACE3;">
+  Articles about Windows 10 :
+  </p>
+  </center>
+  <br>
+  <center>
+  <i>
+  <table>
+  <tr>
+  <td>
+  <a href="#" class="buttonss"> <img src="WeBlog.png" width="50" height="50"> <br>How to get Windows 10 for free?</a>
+  </td>
+  <td>
+  <a href="#" class="buttonsss"> <img src="WeBlog.png" width="50" height="50"> <br>How to customise your Windows 10?</a>
+  </td>
+   </tr>
+   </table>
+   </i>
+  </center>
+  <br>
+  <br>
+  <hr>
+  <br>
+  <br>
+  <center>
+    <p style="font-size:40px; color:#8FACE3;">
+   Articles about Blogging :
+    </p>
+    </center>
+    <br>
+    <center>
+    <i>
+    <table>
+    <tr>
+    <td>
+    <a href="#" class="buttonss"> <img src="WeBlog.png" width="50" height="50"> <br> How to write a blog? </a>
+    </td>
+    <td>
+    <a href="#" class="buttonsss"> <img src="WeBlog.png" width="50" height="50"> <br> How to publish your website online? </a>
+    </td>
+    <td>
+    <a href="#" class="buttonss"> <img src="WeBlog.png" width="50" height="50"> <br> How to write a blog and publish it? </a>
+    </td>
+     </tr>
+     </table>
+     </i>
+    </center>
+    <br>
+    <br>
+    <hr>
+    <br>
+    <br>
+    <center>
+      <p style="font-size:40px; color:#8FACE3;">
+     Articles about Social Media Platforms :
+      </p>
+      </center>
+      <br>
+      <center>
+      <i>
+      <table>
+      <tr>
+      <td>
+      <a href="#" class="buttonss"> <img src="WeBlog.png" width="50" height="50"> <br> Will FaceBook fade away by 2030?</a>
+      </td>
+      <td>
+      <a href="#" class="buttonsss"> <img src="WeBlog.png" width="50" height="50"> <br>  WhatsApp VS Signal: Which one is more secure?</a>
+      </td>
+      <td>
+      <a href="#" class="buttonss"> <img src="WeBlog.png" width="50" height="50"> <br> WhatsApp alternative: Signal or Telegram? </a>
+      </td>
+       </tr>
+       </table>
+       </i>
+      </center>
+      <br>
+      <br>
+      <hr>
+      <br>
+      <br>
+ <center>
+<p id="searchit" style="font-size:25px; color:#8FACE3;">
+What do you want to do today?
+</p>
+<br>
+<br>
+<i>
+<input type="text" id="myInput" onkeyup="myFunction()" placeholder="&#128270; Search Articles..." style="height:60px; width:395px; font-size:15pt; font-family: 'Montserrat', sans-serif; color: #8FACE3;">
+<ol id="myOL">
+<br>
+  <li><a href="#" class="button"> <img src="WeBlog.png" width="50" height="50"> <br> How to write a blog? </a></li>
+  <li><a href="how-to-clear-the-cached-data-of-a-website-on-desktop.html" class="button"> <img src="WeBlog.png" width="50" height="50"> <br> How to clear cached data of a website on desktop?</a></li>
+  <li><a href="#" class="buttons"> <img src="WeBlog.png" width="50" height="50"> <br> How to publish your website online?</a></li>
+  <li><a href="#" class="button"> <img src="WeBlog.png" width="50" height="50"> <br> How to get Windows 10 for free?</a></li>
+  <li><a href="#" class="button"> <img src="WeBlog.png" width="50" height="50"> <br> How to write a blog and publish it?</a></li>
+  <li><a href="#" class="buttons"> <img src="WeBlog.png" width="50" height="50"> <br> How to learn to code?</a></li>
+  <li><a href="#" class="button"> <img src="WeBlog.png" width="50" height="50"> <br> How to fix the unable to update Chrome and Android Web View error? </a></li>
+  <li><a href="#" class="buttons"> <img src="WeBlog.png" width="50" height="50"> <br> Which is the best IDE/Code editor?  </a></li>
+  <li><a href="#" class="button"> <img src="WeBlog.png" width="50" height="50"> <br> How do foldable mobile devices work?</a></li>
+  <li><a href="#" class="buttons"> <img src="WeBlog.png" width="50" height="50"> <br>The Legends who believed in the new tech: Daft Punk</a></li>
+  <li><a href="#" class="button"> <img src="WeBlog.png" width="50" height="50"> <br> WhatsApp VS Signal: Which one is more secure?</a></li>
+  <li><a href="#" class="buttons"> <img src="WeBlog.png" width="50" height="50"> <br> WhatsApp alternative: Signal or Telegram?</a></li>
+  <li><a href="#" class="button"> <img src="WeBlog.png" width="50" height="50"> <br> Will FaceBook fade away by 2030?</a></li>
+  <li><a href="#" class="buttons"> <img src="WeBlog.png" width="50" height="50"> <br> How to customise your Windows 10? </a></li>
+  <li><a href="#" class="buttons"> <img src="WeBlog.png" width="50" height="50"> <br> What is Discord? </a></li>
+  <li><a href="#" class="buttons"> <img src="WeBlog.png" width="50" height="50"> <br> What is Twitch? </a></li>
+  <li><a href="#" class="buttons"> <img src="WeBlog.png" width="50" height="50"> <br> FaceBook VS FaceBook: Instagram better than FaceBook? </a></li>
+  <li><a href="#" class="buttons"> <img src="WeBlog.png" width="50" height="50"> <br> 10 Best apps for students in Microsoft Store (Windows)</a></li>
+  <li><a href="#" class="buttons"> <img src="WeBlog.png" width="50" height="50"> <br> 10 Best apps for students in Google Play Store (Android)</a></li>
+  <li><a href="#" class="buttons"> <img src="WeBlog.png" width="50" height="50"> <br> What are e-diaries? </a></li>
+  <li><a href="#" class="buttons"> <img src="WeBlog.png" width="50" height="50"> <br> How to be secure online? </a></li>  
+</ol>
+</i>
+</center>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<hr>
+<center>
+<div class="sub">
+<p style="font-size:35px; color:#FFFFFF;">
+&#9993; Become our weekly newsletter subscriber! &#9993;
+</p>
+<div id="revue-embed">
+  <form action="https://www.getrevue.co/profile/weblog/add_subscriber" method="post" id="revue-form" name="revue-form"  target="_blank">
+  <div class="revue-form-group">
+    <label for="member_email" style="color: #8FACE3;"></label>
+    <input class="revue-form-field" placeholder="&#9993; Your E-Mail Address..." type="email" name="member[email]" id="member_email" style="height:50px; width:225px; font-size:15px; font-family: 'Montserrat', sans-serif; border-radius: 50px;">
+  </div>
+  <br>
+  <div class="revue-form-actions">
+    <input class="click" type="submit" value="Subscribe" name="member[subscribe]" id="member_submit">
+  </div>
+  </form>
+</div>
+</div>
+</div>
+</center>
+<p style="font-size:5px; text-align:center;">
+  WeBlogTechnologic.github.io
+</p>
+<br>
+<br>
+<br>
+<div class="navbar">
+<i>
+    <a href="home.html" class="active">
+ <img src="outline_home_white_24dp.png" height="20">
+  </a>
+</i>
+  <i>
+  <a href="#myOL">
+  <img src="outline_article_white_24dp.png" height="20">
+  </a>
+</i>
+ <i>
+ <a href="#myInput">
+ <img src="outline_search_white_24dp.png" height="20">
+ </a>
+ <a href="#aboutus">
+ <img src="outline_people_white_24dp.png" height="20">
+ </a>
+  <a href="#contact"><img src="outline_contact_mail_white_24dp_small.png"></a>
+</div>
+	</body>
+	</html>
